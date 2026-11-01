@@ -1,0 +1,71 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Frontend
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+npm-debug.log*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+temp/
+tmp/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Large experimental Random Forest models
+models/random_forest_*.joblib
+
+# Experimental model artifacts not used by the API
+models/temporal_best_*.joblib
+models/tuned_candidate_*.joblib
+models/xgboost_*.joblib
+
+# Empty / temporary analysis outputs
+data/processed/*
+
+# Keep datasets and selected useful results
+!data/processed/cyclones_clean.csv
+!data/processed/cyclone_features.csv
+!data/processed/final_model_test_predictions.csv
+!data/processed/worst_cyclones_analysis.csv
+
+# Frontend environment files
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Temporary editor files
+**/tempCodeRunnerFile.py
