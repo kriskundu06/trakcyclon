@@ -1,4 +1,4 @@
-# TrakCyclon — CycloneTrack AI
+# TrakCyclon — Cyclone Predictor Platform
 
 An end-to-end machine-learning application for exploring historical tropical-cyclone tracks and generating experimental 6-, 12-, and 24-hour trajectory predictions for the **North Indian Ocean** (Bay of Bengal and Arabian Sea).
 
