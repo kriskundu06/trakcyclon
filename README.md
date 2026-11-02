@@ -147,8 +147,6 @@ For exact request and response schemas, inspect `backend/main.py`.
 
 ## Deployment
 
-The intended host
-
 - **Frontend:** https://trakcyclon.vercel.app
 - **Backend:** https://trakcyclon.onrender.com/
 
